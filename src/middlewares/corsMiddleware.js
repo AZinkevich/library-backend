@@ -1,6 +1,5 @@
 const allowedOrigins = [
   "http://localhost:3000",
-  //  разрешённые адреса
 ];
 
 const corsMiddleware = (req, res, next) => {
